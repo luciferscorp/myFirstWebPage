@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/index.css">
+    <title>Assignment 1</title>
+
+</head>
+
+<body>
+    <div class="container">
+    <form>
+        <table class="form_table">
+            <tr class=".login_text" style="height: 90px">
+                <th colspan="2"  >Registration form</th>
+            </tr>
+
+            <tr class="text_field" style="text-align: center;">
+                <td  id="col-left"><label for="username">Username:</label></td>
+                <td id="col-right"><input class="finput" type="text" name="username" placeholder="Username"></td>
+            </tr>
+            <tr class="text_field">
+                <td id="col-left"><label for="email">Email:</label></td>
+                <td id="col-right"><input type="email" placeholder="Email address"></td>
+            </tr>
+
+            <tr class="text_field" style="text-align: center;">
+                <td id="col-left"><label for="password">Password:</label></td>
+                <td id="col-right"><input class="finput" type="password" name="password" placeholder="Enter the password"></td>
+            </tr>
+            <tr class="text_field">
+                <td  id="col-left"><label for="conf_password">Confirm Password:</label></td>
+                <td id="col-right"><input type="password" placeholder="Re-enter the password"></td>
+            </tr>
+            <tr class="text_field" class="row-left">
+                <td  id="col-left"><label for="role">Role:</label></td>
+                <td id="col-right" class="role_options"><select name="role" id="role_dropdown">
+                    <option value=""></option>
+                    <option value="project_manager">Project Manager</option>
+                    <option value="project_leader">Project Leader</option>
+                    <option value="employee">Employee</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <input class="fsubmit" type="submit">
+            </tr>
+        </table>
+    </form>
+    </div>
+</body>
+
+</html>
